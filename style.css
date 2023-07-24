@@ -61,6 +61,16 @@
  .w-100{
      height: 100vh;
  }
+
+.service .card-body{
+   font-size: 50 px;
+
+}
+
+
+
+
+
  /* ===responsive css === */
  
  @media only screen and (min-width: 768px) and (max-width: 991px){
