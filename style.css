@@ -62,10 +62,19 @@
      height: 100vh;
  }
 
-.service .card-body{
+.service .card-body i{
    font-size: 50 px;
 
 }
+.team .card-body i{
+    font-size: 20 px;
+ }
+ .portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+ }
+ .team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+ }
 
 
 
