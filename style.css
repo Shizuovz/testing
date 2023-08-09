@@ -75,6 +75,12 @@
  .team .card {
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
  }
+ .moreText{
+    display: none;
+ }
+ .text.show-More .moreText{
+    display: inline;
+ }
 
 
 
@@ -86,7 +92,7 @@
      .carousal-caption{
          bottom:370px;
      }
-     .carousal-caption p{
+     .carousal-caption p{ 
         width: 100px;
      }
      .card{
@@ -95,6 +101,7 @@
      .img-area img{
         width: 100%;
      }
+     
  }
  
  @media only screen and (max-width: 767px){
@@ -121,4 +128,5 @@
      .card{
         margin-bottom: 30px;
      }
+     
  }
