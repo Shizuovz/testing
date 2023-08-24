@@ -2,7 +2,9 @@
     font-family: montserrat; 
  }
  body{
-     background: f1fbff;
+    
+     background: rgb(50, 53, 45);
+     
  }
  .section-padding{
      padding: 100px 0;
@@ -17,7 +19,7 @@
  }
  .carousel-caption h5{
      font-size: 45px;
-     color: aliceblue;
+     color: rgb(255, 255, 255);
      text-transform: uppercase;
      letter-spacing: 2px;
      margin-top: 25px;
@@ -26,7 +28,7 @@
     width: 60%;
     margin: auto;
     font-size: 18px; 
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     line-height: 1.9;
  }
  .carousel-inner::before{
@@ -53,7 +55,7 @@
  }
  .navbar-light .navbar-brand:focus,
  .navbar-light .navbar-brand:hover{
-     color: black;
+     color: rgb(128, 85, 85);
  }
  .navbar-light .navbar-nav .navbar-link{
      color: black;
@@ -75,10 +77,17 @@
  .team .card {
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
  }
+/** remove the icon turning to blue from the a tag. The inherit property will inherit the default color**/
+a{
+    text-decoration: none;
+    color: inherit; 
+}
 
-
-
- /* ===responsive css === */
+/*changing the text color of container contents*/
+.container{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
  
  @media only screen and (min-width: 768px) and (max-width: 991px){
      .carousal-caption{
@@ -113,6 +122,8 @@
          width: 100%;
          line-height: 1.6;
          font-size: 12px;
+         
+         
      }
      .about-text{
         padding-top: 50px;
